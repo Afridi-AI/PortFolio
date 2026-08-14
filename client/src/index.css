@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius: 0.75rem;
+}
+
+:root {
+  --background: oklch(0.13 0.012 254);
+  --foreground: oklch(0.95 0.01 215);
+  --card: oklch(0.16 0.016 254);
+  --card-foreground: oklch(0.95 0.01 215);
+  --popover: oklch(0.16 0.016 254);
+  --popover-foreground: oklch(0.95 0.01 215);
+  --primary: oklch(0.88 0.12 195);
+  --primary-foreground: oklch(0.16 0.025 235);
+  --secondary: oklch(0.2 0.02 254);
+  --secondary-foreground: oklch(0.92 0.01 220);
+  --muted: oklch(0.2 0.017 254);
+  --muted-foreground: oklch(0.7 0.025 230);
+  --accent: oklch(0.2 0.035 228);
+  --accent-foreground: oklch(0.92 0.035 210);
+  --destructive: oklch(0.65 0.21 24);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.95 0 0 / 10%);
+  --input: oklch(0.95 0 0 / 12%);
+  --ring: oklch(0.8 0.11 196);
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; background: #070a12; }
+  body { @apply bg-background text-foreground font-sans antialiased; }
+  button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
+  button:not(:disabled), [role="button"]:not([aria-disabled="true"]), a[href] { @apply cursor-pointer; }
+  ::selection { background: #a5f3fc; color: #07111d; }
+}
+
+@layer components {
+  .container { width: 100%; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+  @media (min-width: 640px) { .container { padding-left: 1.5rem; padding-right: 1.5rem; } }
+  @media (min-width: 1024px) { .container { max-width: 1240px; padding-left: 2rem; padding-right: 2rem; } }
+}
+
+.neural-path { animation: trace 5s linear infinite; }
+
+@keyframes trace { to { stroke-dashoffset: -20; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}
