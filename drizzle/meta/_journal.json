@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786707960707,
+      "tag": "0000_slow_tinkerer",
+      "breakpoints": true
+    }
+  ]
 }
