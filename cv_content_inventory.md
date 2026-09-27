@@ -1,53 +1,57 @@
 # CV Content Inventory
 
-This inventory records the facts that may be represented in the portfolio. It is derived solely from the uploaded CV, with no additions.
+This inventory records the facts represented in the portfolio. It is derived solely from the corrected uploaded CV, with no additions.
 
-| Area | CV-verified content |
-| --- | --- |
-| Name | Ikram Ullah Afridi |
-| Positioning | Computer Systems Engineering undergraduate; AI, Machine Learning, and Cloud Enthusiast |
-| Location | Peshawar, Pakistan |
-| Email | ikramullahafridi945@gmail.com |
-| Phone | +92 333 5003110 |
-| Degree | Bachelor of Computer Systems Engineering, MUST, AJK; 2022–2026; currently in 8th semester; CGPA 3.15/4.0 |
-| Previous education | Intermediate, Pre-Engineering, Government College Peshawar; 2020–2022; marks 888/1100 |
-| Languages | English, Urdu, Pashto |
+| Area        | CV-verified content                                                                                                        |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Name        | Ikram Ullah Afridi                                                                                                         |
+| Positioning | Computer Systems Engineering Graduate; AI & Machine Learning; Python Development                                           |
+| Location    | Peshawar, Pakistan                                                                                                         |
+| Email       | ikramullahafridi945@gmail.com                                                                                              |
+| Phone       | +92 333 5003110                                                                                                            |
+| Degree      | Bachelor of Computer Systems Engineering, Mirpur University of Science and Technology (MUST), AJK; 2022–2026; CGPA 3.2/4.0 |
+| Languages   | English, Urdu, Pashto                                                                                                      |
 
 ## Professional Summary
 
-The CV describes hands-on experience in Python, C++, JavaScript, HTML/CSS, an interest in machine learning and artificial intelligence, a virtual AI internship with DecodeLabs, and practical exposure to telecom/network infrastructure through the Special Communications Organization. It also records leadership and event-management work with the AWS Cloud Club, MUST.
+Computer Systems Engineering graduate with practical experience in Python, machine learning, API integration, and AI application development. Completed an AI internship covering classification, recommendation systems, and OCR, and co-developed a Flutter-based glucose management application. Seeking a graduate trainee position or entry-level role in AI/ML or software engineering.
 
 ## Technical Skills
 
-| Category | CV-verified skills |
-| --- | --- |
-| Programming languages | Python with common data/ML libraries, C++, JavaScript, HTML, CSS |
-| Machine learning and AI | Data handling; project exposure to machine learning and data analysis |
-| Cloud and networking | AWS fundamentals via AWS Cloud Club, GSM/NGMS services, microwave transmission, GPON, broadband, PSTN, optical fiber, networking protocols/IP via SCO internship |
-| Cybersecurity | Certifications from ADBI and HP |
-| Tools and platforms | Git/GitHub, Cisco Packet Tracer, telecom power systems, call-center handling systems |
-| Professional capabilities | Event management, team leadership, cross-functional coordination, critical thinking, public communication |
+| Category                  | CV-verified skills                                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Programming               | Python, C++, Dart, JavaScript, HTML/CSS                                                                            |
+| Machine learning and data | scikit-learn, XGBoost, pandas, NumPy, classification, feature scaling, cross-validation, TF-IDF, cosine similarity |
+| AI and computer vision    | OpenCV, Tesseract OCR, Gemini API, Groq API, Whisper speech recognition, Deepgram text-to-speech                   |
+| Application development   | Flutter, BLoC/Cubit, Flask, Gradio, REST APIs                                                                      |
+| Databases and tools       | Firebase Authentication, Cloud Firestore, Git, GitHub, Jupyter Notebook, Matplotlib                                |
 
-## Experience
+## Projects
 
-| Organization | Role | Dates | CV-verified scope |
-| --- | --- | --- | --- |
-| DecodeLabs | AI Intern, Virtual | Jun 2026–Jul 2026 | Worked on AI-related projects and collaboration tasks; applied structured analytical approaches to AI technical problems; collaborated remotely with engineering and design teams. |
-| AWS Cloud Club, MUST | Event Management Lead | Feb 2025–2026 | Led planning and execution for AWS Student Community Day 2025; coordinated logistics, speakers, vendors, volunteers, workshops, and networking; received official recognition from AWS Cloud Clubs. |
-| SCO, Mirpur | Telecom & Network Infrastructure Intern | Jul 2025–Sep 2025 | Learned GSM/NGMS, microwave transmission, GPON, PSTN operations, broadband provisioning, optical-fiber transmission, telecom power systems, and call-center handling processes; received formal commendation for hard work and punctuality. |
+| Project                           | CV-verified scope                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GlucoSense AI                     | Co-developed a Flutter/Firebase application for glucose logging, medical profiles, meal-image analysis, and historical glucose trends; integrated Gemini nutrition estimates and a Flask API serving an XGBoost classifier with 12 input features and three risk categories; compared Logistic Regression, Random Forest, and XGBoost using stratified splitting, StandardScaler, and classification metrics. |
+| AI Skin Specialist                | Built a Gradio assistant combining spoken descriptions and uploaded skin images; integrated Whisper transcription through Groq, image-based AI inference, and Deepgram speech synthesis; added image resizing, JPEG encoding, input checks, and response-length controls.                                                                                                                                     |
+| Document OCR Pipeline             | Developed an image-to-text pipeline using grayscale conversion, Gaussian blur, deskewing, and Otsu thresholding before Tesseract recognition; applied an 80% confidence threshold and generated annotated detections.                                                                                                                                                                                         |
+| Tech Stack and Career Recommender | Built a content-based recommender matching entered skills to job roles with TF-IDF weighting and cosine similarity, including input validation and zero-match handling.                                                                                                                                                                                                                                       |
+| Iris Classification Pipeline      | Developed a k-nearest neighbours classifier with a stratified 80/20 split and standardized features; compared neighbour counts with five-fold cross-validation and evaluated accuracy, macro F1, reports, and confusion matrices.                                                                                                                                                                             |
 
-## Certifications
+## Experience and Activities
 
-| Credential |
-| --- |
-| DecodeLabs — Letter of Recommendation, Artificial Intelligence (AI) Internship |
-| AWS Student Community Day Mirpur 2025 — Recognition Certificate, AWS Cloud Clubs |
-| Artificial Intelligence (AI) for Social Impact — Asian Development Bank Institute (ADBI) |
-| Cyber Security — Asian Development Bank Institute (ADBI) |
-| SCSE Content Writing Team Member — Society of Computer Systems Engineering, MUST |
-| AWS AI Practitioner Challenge Certificate |
-| Google AI Essentials Specialization — Coursera |
+| Organization                                  | Role                                    | Dates               | CV-verified scope                                                                                                                                                                         |
+| --------------------------------------------- | --------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DecodeLabs                                    | AI Intern (Virtual)                     | June–July 2026      | Completed four Python projects covering rule-based conversation, classification, recommendations, and OCR, with data preparation, input handling, and evaluation outputs.                 |
+| Special Communications Organization, Mirpur   | Telecom & Network Infrastructure Intern | July–September 2025 | Practical exposure to GSM/NGMS, microwave transmission, GPON, broadband provisioning, PSTN operations, optical fibre systems, telecom power-system operations, and call-centre processes. |
+| AWS Cloud Club, MUST                          | Event Management Lead                   | February 2025–2026  | Led AWS Student Community Day Mirpur 2025 planning and delivery, coordinating speakers, logistics, scheduling, and volunteers; received recognition from AWS Cloud Clubs.                 |
+| Society of Computer Systems Engineering, MUST | Content Writing Team Member             | Not specified       | Listed under Leadership & Activities in the CV.                                                                                                                                           |
+
+## Training and Certificates
+
+- Google AI Essentials Specialization — Coursera
+- Artificial Intelligence (AI) for Social Impact — Asian Development Bank Institute (ADBI)
+- Cyber Security — Asian Development Bank Institute (ADBI)
+- AWS AI Practitioner Challenge Certificate
 
 ## Constraints for Implementation
 
-The CV contains no GitHub URL, LinkedIn URL, public project title, live-demo URL, publication, research paper, professional photo, or credential URL. The website must not add or imply any of these. Project presentation must therefore be limited to clearly labelled CV-verified experience rather than invented project cards or repository links.
+The corrected CV contains no LinkedIn URL, project repository URLs, live-demo URLs, publication, research paper, professional photo, or credential URLs. The website must not add or imply any of these.
